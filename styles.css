@@ -1,3 +1,10 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
 ::-webkit-scrollbar{
   width: 10px;
 }
@@ -6,6 +13,9 @@ background: #dddddd;
 }
 ::-webkit-scrollbar-track{
   background:#ADA996;
+}
+body{
+  width: 100%;
 }
 section {
   overflow: hidden;
@@ -279,5 +289,94 @@ input:focus{
   }
   .flip-card-inner{
     width: 70%;
+  }
+  
+}
+@media only screen and (max-width:480px){
+  html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+  }
+  .flip-card{
+    width: 100%;
+  }
+  .flip-card-inner{
+    width: 382%;
+  }
+  #flip-card-size{
+    display:inline-flex;
+    padding-right: 65%;
+  }
+}
+@media screen and (max-width:900px) and (min-width:481px){
+  html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+  }
+  .flip-card{
+    margin-top: 5%;
+    width: 100%;
+  }
+  .flip-card-inner{
+    width: 232%;
+  }
+  #flip-card-size{
+    display:inline-flex;
+    padding-right: 54%;
+  }
+  #TEST{
+    margin-left: 3%;
+  }
+}
+@media screen and (max-width:1181px) and (min-width:819px){
+  html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+  }
+  .flip-card{
+    margin-top: 5%;
+    width: 100%;
+  }
+  .flip-card-inner{
+    width: 218%;
+  }
+  #flip-card-size{
+    display:inline-flex;
+    padding-right: 54%;
+  }
+  #TEST{
+    margin-left: 3%;
+  }
+}
+@media screen and (max-width:1368px) and (min-width:912px){
+  html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+  }
+  .flip-card{
+    margin-top: 5%;
+    width: 100%;
+  }
+  .flip-card-inner{
+    width: 161%;
+  }
+  #flip-card-size{
+    display:inline-flex;
+    padding-right: 45%;
+  }
+  #TEST{
+    margin-left: 3%;
   }
 }
