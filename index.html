@@ -91,23 +91,29 @@
   </head>
 
 <body>
-<div class="logo-title">
-    <img src="images/profile.png" alt="" class="profile-logo img-fluid">
-    <div class="logo-text">
-        <img src="images/logo.png" alt="" class="logo img-fluid">
-        <h1 style="font-weight: bolder; color: rgba(56, 56, 56, 0.815); font-size: 30px;">תתאימו את הביטוח אליכם<br> ולא את עצמכם לביטוח</h1><br>
-        <form method="post">
-          <input class="sendBTN" type="email" name="email" id="floatingPassword" placeholder="אימייל" size="15" required autofocus>
-          <input class="sendBTN" type="text" name="Phone" id="floatingInput" placeholder="טלפון" maxlength="10" size="15" required >
-          <input class="sendBTN" type="text" name="Phone" id="floatingInputName" placeholder="שם מלא"  size="15" required > <br><br><br>
-          <button class="phone-btn" type="button"  onclick="location.href='tel:052-5394768'"><i aria-hidden="true" class="fas fa-phone-alt but"></i> 052-8612143</button>
-          <div class="popup" onclick="myFunction()"><button class="phone-btn" type="button" value="send Email" onclick="testEmail()">שליחה </button>
-            <span class="popuptext" id="myPopup">das</span>
-          </div>
-          <!--  <a href="tel:052-5394768" class="phone-btn"><i aria-hidden="true" class="fas fa-phone-alt but"></i> התקשרו עכשיו</a><br><br><br> -->
-      </form>
+  <div class="logo-title row">
+    <div class="col-lg-6 d-flex queryProfile" data-aos="zoom-out" data-aos-delay="200">
+      <img src="images/profile.png" alt="" style="width:60%" class="profile-logo img-fluid">
     </div>
-</div>
+    <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <div class="content">
+      <div class="logo-text queryText">
+          <img src="images/logo.png" alt="" class="logo img-fluid">
+          <h1 style="font-weight: bolder; color: rgba(56, 56, 56, 0.815); font-size: 30px;">תתאימו את הביטוח אליכם<br> ולא את עצמכם לביטוח</h1><br>
+          <form method="post">
+            <input class="sendBTN" type="email" name="email" id="floatingPassword" placeholder="אימייל" size="15" required autofocus>
+            <input class="sendBTN" type="text" name="Phone" id="floatingInput" placeholder="טלפון" maxlength="10" size="15" required >
+            <input class="sendBTN" type="text" name="Phone" id="floatingInputName" placeholder="שם מלא"  size="15" required > <br><br><br>
+            <button class="phone-btn" type="button"  onclick="location.href='tel:052-5394768'"><i aria-hidden="true" class="fas fa-phone-alt but"></i> 052-8612143</button>
+            <div class="popup" onclick="myFunction()"><button class="phone-btn" type="button" value="send Email" onclick="testEmail()">שליחה </button>
+              <span class="popuptext" id="myPopup">das</span>
+            </div>
+            <!--  <a href="tel:052-5394768" class="phone-btn"><i aria-hidden="true" class="fas fa-phone-alt but"></i> התקשרו עכשיו</a><br><br><br> -->
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
 
     <section id="features">
         <div class="row">
@@ -130,23 +136,37 @@
            </div>
         </div>
     </section>
-      <section id="middle">
-        <div class="logo-middle">
-            <img src="images/test2.webp" alt="" class="image-flex">
-            <div class="feature-box temp-box col-lg-6" style="padding-bottom:0;" id="test-text">
-                <img src="images/temp.png" alt="" style="width:170px;"><br><br>
-                <h3 style="font-weight: bolder;">העבודה שלנו היא השקט שלכם</h3>
-                <span style="font-weight: 400;">יש הרבה מידע מבלבל בתחום הפיננסים והביטוח, קשה להבין מה היא התוכנית הביטוח בריאות וחיים שאתם צריכים וזקוקים לה. עם ביטוח ופיננסים תמיד תדעו שיש לכם מי שעובד ופועל באמת למען האינטרס שלכם</span>
-              </div>
+
+
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+
+  <div class="logo-middle" data-aos="fade-up">
+    <div class="row gx-0">
+      <div class="col-lg-6 d-flex " data-aos="zoom-out" data-aos-delay="200">
+        <img src="images/test2.webp" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="content">
+          <img src="images/temp.png" alt="" style="width:170px;"><br><br>
+          <h2>העבודה שלנו היא השקט שלכם</h2>
+          <p>
+            יש הרבה מידע מבלבל בתחום הפיננסים והביטוח, קשה להבין מה היא התוכנית הביטוח בריאות וחיים שאתם צריכים וזקוקים לה. עם ביטוח ופיננסים תמיד תדעו שיש לכם מי שעובד ופועל באמת למען האינטרס שלכם
+          </p>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section><!-- End About Section -->
+      
         <section id="footer-contact">
           <div class="row">
-              <div class="feature-box col-lg-6">
-                <div class="flip-card"  id="test">
+              <div class="feature-box col-lg-6 ">
+                <div class="flip-card "  id="test">
                   <div class="flip-card-inner">
                     <div class="flip-card-front">
-                      <img src="images/profile.png" alt="" class="profile-logo img-fluid" style="width:500px;height:500px; box-shadow: 5px 6px 5px 4px #ADA996;">
+                      <img src="images/profile.png" alt="" class="profile-logo img-fluid testt" style="width:500px;height:500px; box-shadow: 5px 6px 5px 4px #ADA996;">
                     </div>
                     <div class="flip-card-back">
                       <h1>אופיר אסייג</h1> 
