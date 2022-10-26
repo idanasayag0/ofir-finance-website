@@ -255,6 +255,10 @@ input:focus{
   padding: 40px;
   text-align: center;
 }
+input::placeholder{
+  margin-right: 25%;
+  font-weight: bolder;
+}
 .about h2 {
   font-size: 24px;
   font-weight: 700;
@@ -266,16 +270,31 @@ input:focus{
 }
 
 @media (max-width: 991px) {
+  input{
+    width: 220px;
+  }
+  input::placeholder{
+    margin-right: 30%;
+    font-weight: bolder;
+  }
+  #footer-contact{
+    margin-right: 5rem;
+  }
   .queryProfile {
     margin-left: 28%;
     margin-bottom: 3%;
   }
   .queryText{
     text-align: right;
-    padding-right: 22%;
+    /* padding-right: 22%; */
   }
   .flip-card{
     display: none;
+  }
+  .profile-logo{
+    position: absolute;
+    bottom: 0%;
+    left: -15%;
   }
 }
 @media (max-width: 1179px) {
