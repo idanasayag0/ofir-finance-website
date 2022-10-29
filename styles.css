@@ -268,7 +268,7 @@ input::placeholder{
 
 @media (max-width: 991px) {
   input{
-    width: 170px;
+    width: 180px;
   }
   input::placeholder{
     margin-right: 8%;
