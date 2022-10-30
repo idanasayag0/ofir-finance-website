@@ -398,3 +398,11 @@ input::placeholder{
     margin-left: 3%;
   }
 }
+@media(max-width: 320px){ 
+  .queryProfile{
+    visibility: hidden;
+  }
+  input{
+    width: 100px;
+  }
+}
