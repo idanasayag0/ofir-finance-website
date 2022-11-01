@@ -300,6 +300,9 @@ input::placeholder{
   .phone-btn{
     margin-right: -1%;
   }
+  .MobilePhone{
+    margin-right: 0%;
+  }
 }
 @media (max-width: 1179px) {
   .flip-card{
