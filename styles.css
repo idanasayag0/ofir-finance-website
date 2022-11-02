@@ -297,11 +297,16 @@ input::placeholder{
     bottom: -13%;
     left: -17%;
   }
+  .Test-text-Title{
+    text-align: center;
+  }
+  #Test-img-div{
+    position: relative;
+    width: 120%;
+    margin-left: -175px;
+  }
   .phone-btn{
     margin-right: -1%;
-  }
-  .MobilePhone{
-    margin-right: 0%;
   }
 }
 @media (max-width: 1179px) {
