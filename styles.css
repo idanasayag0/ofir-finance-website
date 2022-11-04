@@ -40,16 +40,13 @@ input:focus{
     align-self: left;
 }
 .logo{
-    width: 40%;
-    position: relative;
-    margin-top: 20px;
-    display: inline-block;
-    margin-left: 63%;
+  position: relative;
+  margin-right: -22px;
 }
 .logo-title{
     position: relative;
     font-family: Arial;
-    background-image: linear-gradient(60deg, #ADA996 50%, #EAEAEA 90%);
+    background-image: linear-gradient(150deg, #ADA996 50%, #EAEAEA 90%);
     display: flex;
 }
 .logo-text{
@@ -105,7 +102,7 @@ input:focus{
     position: relative;
     font-family: Arial;
     /* background: radial-gradient(circle, #ADA996 0%,#F2F2F2 100%, #DBDBDB 0%,#EAEAEA 100%); */
-    background-image: linear-gradient(60deg, #ADA996 47%, #EAEAEA 90%);
+    background-image: linear-gradient(130deg, #ADA996 47%, #EAEAEA 90%);
     display: flex;
     padding-left: 0;
 }
@@ -224,6 +221,8 @@ input:focus{
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    font-weight: 600;
+    font-size: large;
   }
   
   .flip-card-front {
@@ -233,7 +232,7 @@ input:focus{
   
   .flip-card-back {
     background: radial-gradient(circle, #ADA996 0%,#F2F2F2 100%, #DBDBDB 0%,#EAEAEA 100%);
-    color: #838070;
+    color: #555346;
     transform: rotateY(180deg);
   }
   
@@ -296,14 +295,6 @@ input::placeholder{
     position: absolute;
     bottom: -13%;
     left: -17%;
-  }
-  .Test-text-Title{
-    text-align: center;
-  }
-  #Test-img-div{
-    position: relative;
-    width: 120%;
-    margin-left: -175px;
   }
   .phone-btn{
     margin-right: -1%;
