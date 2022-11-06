@@ -316,6 +316,9 @@ input::placeholder{
   .phone-btn{
     margin-right: -1%;
   }
+  .typed-out{
+    padding-left: 3rem;
+  }
 }
 @media (max-width: 1179px) {
   .flip-card{
@@ -344,6 +347,10 @@ input::placeholder{
     display:inline-flex;
     padding-right: 65%;
   }
+  .typed-out{
+    padding-left: 1rem;
+    font-size: 1.8rem;
+  }
 }
 @media screen and (max-width:900px) and (min-width:481px){
   html,body {
@@ -366,6 +373,10 @@ input::placeholder{
   }
   #TEST{
     margin-left: 3%;
+  }
+  .typed-out{
+    padding-left: 3rem;
+    margin-left: 0.68rem;
   }
 }
 @media screen and (max-width:1181px) and (min-width:819px){
