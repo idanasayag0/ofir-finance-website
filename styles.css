@@ -23,6 +23,7 @@ html,body {
   to{width:100%
   }
 }
+
 ::-webkit-scrollbar{
   width: 10px;
 }
@@ -69,6 +70,7 @@ input:focus{
 }
 .logo-text{
     text-align: right;
+    margin-right: 0.35rem;
 }
 .phone-btn{
     background-color: rgba(56, 56, 56, 0.815);
@@ -79,6 +81,7 @@ input:focus{
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .4s;
+    margin-bottom: 0.3rem;
 }
 .phone-btn:hover{
     transform: scale(1.1);
@@ -112,6 +115,7 @@ input:focus{
     padding-right: 15px;
     display: inline-block;
     margin-bottom: 2px;
+    margin-right: 0.3rem;
 }
 .send{
     margin-bottom: 3%;
@@ -432,5 +436,8 @@ input::placeholder{
   }
   input{
     width: 100px;
+  }
+  .typed-out{
+    font-size: 1.5rem;
   }
 }
