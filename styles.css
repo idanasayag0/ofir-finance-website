@@ -4,6 +4,7 @@ html,body {
   margin: 0%;
   padding: 0%;
   overflow-x: hidden;
+  font-style: italic;
 }
 .container{
   display: inline-block;
@@ -16,6 +17,7 @@ html,body {
   width:0;
   font-family: 'Dancing Script', cursive;
   padding-left: 5rem;
+  font-family: 'Rubik', sans-serif;
 }
 @keyframes typing{
   from{width:0}
