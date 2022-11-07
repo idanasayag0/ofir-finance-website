@@ -324,9 +324,6 @@ input::placeholder{
   .typed-out{
     padding-left: 3rem;
   }
-  .sendBTN{
-    margin-right: 0.2rem;
-  }
 }
 @media (max-width: 1179px) {
   .flip-card{
