@@ -514,6 +514,27 @@ input::placeholder{
     display:block !important;
   }
 }
+@media(max-width:1148px){
+  .test-br1{
+    display:block !important;
+  }
+  .test-br2{
+    display:block !important;
+  }
+  .test-br3{
+    display:block !important;
+  }
+}
+@media(max-width:500px){
+  .test-br4{
+    display: block !important;
+  }
+  .profile-logo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
 .test-br1{
   display: none;
 }
@@ -521,5 +542,8 @@ input::placeholder{
   display: none;
 }
 .test-br3{
+  display: none;
+}
+.test-br4{
   display: none;
 }
