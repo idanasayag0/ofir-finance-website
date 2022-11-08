@@ -109,7 +109,13 @@ input:focus{
     width: 150px;
 }
 .icon{
-    color: rgb(66, 134, 244);
+    background: -moz-linear-gradient(to top, rgb(55, 59, 68), rgb(66, 134, 244));
+    background: -webkit-linear-gradient(to top, rgb(55, 59, 68), rgb(66, 134, 244));
+    background: linear-gradient(to top, rgb(55, 59, 68), rgb(66, 134, 244));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 1rem;
 }
 .sendBTN{
@@ -524,11 +530,12 @@ input::placeholder{
   .test-br3{
     display:block !important;
   }
-}
-@media(max-width:500px){
   .test-br4{
     display: block !important;
   }
+
+}
+@media(max-width:500px){
   .profile-logo{
     position: absolute;
     bottom: 0;
