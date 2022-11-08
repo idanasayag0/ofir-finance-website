@@ -61,7 +61,7 @@ input:focus{
 .logo{
   position: relative;
   margin-right: -22px;
-  margin-left: 2px;
+  margin-left: 3px;
 }
 .logo-title{
     position: relative;
@@ -492,7 +492,6 @@ input::placeholder{
   height: 100%;
   position: absolute;
   width: 15%;
-  z-index: 2;
 }
 .slider::before{
   left: 0;
