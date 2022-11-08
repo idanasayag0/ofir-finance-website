@@ -57,17 +57,20 @@ input:focus{
     margin-right: 45%;
     display: inline-block;
     align-self: left;
+    object-fit: cover;
 }
 .logo{
   position: relative;
   margin-right: -22px;
   margin-left: 3px;
+  object-fit: cover;
 }
 .logo-title{
     position: relative;
     font-family: Arial;
     background-image: linear-gradient(to top, #3973be 0%, #537895 100%);
     display: flex;
+    background-size: cover;
 }
 .logo-text{
     text-align: right;
