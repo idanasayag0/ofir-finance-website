@@ -68,7 +68,7 @@ input:focus{
 .logo-title{
     position: relative;
     font-family: Arial;
-    background-image: linear-gradient(to top, #3973be 0%, #537895 100%);
+    background-image: linear-gradient(to top, rgb(55, 59, 68), rgb(66, 134, 244));
     display: flex;
     background-size: cover;
 }
@@ -109,7 +109,7 @@ input:focus{
     width: 150px;
 }
 .icon{
-    color: #3973be;
+    color: rgb(66, 134, 244);
     margin-bottom: 1rem;
 }
 .sendBTN{
@@ -127,7 +127,7 @@ input:focus{
 .logo-middle{
     position: relative;
     font-family: Arial;
-    background-image: linear-gradient(to top, #3973be 0%, #537895 100%);
+    background-image: linear-gradient(to top, rgb(55, 59, 68), rgb(66, 134, 244));
     display: flex;
     padding-left: 0;
 }
@@ -159,7 +159,7 @@ input:focus{
 .lastone{
     position: relative;
     font-family: Arial;
-    background-image: linear-gradient(to top, #3973be 0%, #537895 100%);
+    background-image: linear-gradient(to top, rgb(55, 59, 68), rgb(66, 134, 244));
     text-align: center;
     margin: 2% 0 0 0 ;
     line-height: 3;
