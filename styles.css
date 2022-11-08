@@ -146,14 +146,12 @@ input:focus{
     left: 90px;
     bottom: 10px;
     background-color: rgba(21, 255, 0, 0.815);
-    z-index:2;
 }
 #delegar2 {
     position:fixed;
     left: 5px;
     bottom: 10px;
     background-color: rgba(21, 255, 0, 0.815);
-    z-index:2;
 }
 .lastone{
     position: relative;
