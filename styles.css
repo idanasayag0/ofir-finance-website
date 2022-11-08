@@ -43,7 +43,7 @@ div{
     display:block;
 }
 *::selection{
-  background: #ADA996;
+  background: rgb(66, 134, 244);
 }
 input:focus{
   transition: transform 0.6s;
